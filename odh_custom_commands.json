@@ -8,5 +8,10 @@
         "command": "adb shellam broadcast -a com.oculus.vrpowermanager.automation_disable",
         "displayOutputWindow": false,
         "name": "Enable Proximity Sensor"
+    },
+    {
+        "command": "adb shell setprop debug.oculus.experimentalEnabled 1",
+        "displayOutputWindow": false,
+        "name": "Enable Experimental Features"
     }
 ]
