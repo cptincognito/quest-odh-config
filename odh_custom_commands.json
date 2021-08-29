@@ -1,0 +1,12 @@
+[
+    {
+        "command": "adb shell am broadcast -a com.oculus.vrpowermanager.prox_close",
+        "displayOutputWindow": false,
+        "name": "Disable Proximity Sensor"
+    },
+    {
+        "command": "adb shellam broadcast -a com.oculus.vrpowermanager.automation_disable",
+        "displayOutputWindow": false,
+        "name": "Enable Proximity Sensor"
+    }
+]
